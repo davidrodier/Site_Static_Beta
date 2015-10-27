@@ -1,5 +1,5 @@
 document.write(
-'<footer style="background-color:#563C4E;" class="page-footer">'+
+'<footer style="background-color:#563C4E;margin-top:0px;" class="page-footer">'+
           '<div class="container">'+
             '<div class="row">'+
               '<div class="col l6 s12">'+
@@ -18,5 +18,11 @@ document.write(
           '</div>'+
           '<div class="footr-copyright">'+
           '</div>'+
-        '</footer>'
+          '<div class="footer-copyright" style="background-color:#4E2742">'+
+            '<div class="container">'+
+            '© 2015 Challenger Realm'+
+            '<a class="grey-text text-lighten-4 right" href="http://172.17.104.123/User/Join">Inscription</a>'+
+            '</div>'+
+        '</div>'+
+   '</footer>'
 );
